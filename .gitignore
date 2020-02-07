@@ -1,0 +1,9 @@
+test-output
+target
+.project
+.setting
+.classpath
+.settings
+.metadata
+bin
+testng.xml
