@@ -1,10 +1,10 @@
-package bonustasksTestcases;
+package bonustasksTestcases.task3testcase;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import bonnus_tasks.rotationsofstrings.RotationsOfStrings;
-import bonnus_tasks.rotationsofstrings.StringRotationWithoutLambda;
+import bonnus_tasks.task3.RotationsOfStrings;
+import bonnus_tasks.task3.StringRotationWithoutLambda;
 
 public class RotationOfstringTest {
 	SoftAssert softAssert= new SoftAssert();

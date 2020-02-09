@@ -1,4 +1,4 @@
-package javatestautomation.hometask1;
+package bonnus_tasks.task1;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ import org.apache.log4j.Logger;
 
 import util.BaseClass;
 
-public class HomeTask1 {
+public class PalindromeTask {
 	static Scanner scanner = new Scanner(System.in);
-	 static Logger logger = Logger.getLogger(HomeTask1.class);
+	 static Logger logger = Logger.getLogger(PalindromeTask.class);
 	public static void main(String[] args) {
 		BaseClass.getBaseClassLogger();
 		 logger.info("enter a String to check whether palindrome or not");

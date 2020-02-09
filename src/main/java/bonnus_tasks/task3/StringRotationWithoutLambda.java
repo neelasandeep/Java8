@@ -1,9 +1,9 @@
-package bonnus_tasks.rotationsofstrings;
+package bonnus_tasks.task3;
 
 public class StringRotationWithoutLambda implements StringsRotation{
 	public boolean findRotationOfStrings(String firstString,String secondString) {
 		boolean isRotation=true;
-		if(firstString.length()!= secondString.length() ||(firstString==null || secondString==null)) {
+		if(firstString.length()!= secondString.length() ) {
 			isRotation=false;
 		}else {
 			firstString=firstString.concat(firstString);

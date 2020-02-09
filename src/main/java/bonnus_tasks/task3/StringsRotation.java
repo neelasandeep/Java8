@@ -1,4 +1,4 @@
-package bonnus_tasks.rotationsofstrings;
+package bonnus_tasks.task3;
 
 @FunctionalInterface
 interface StringsRotation{

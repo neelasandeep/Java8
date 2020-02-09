@@ -1,4 +1,4 @@
-package bonnus_tasks;
+package bonnus_tasks.task2;
 
 import java.util.Arrays;
 

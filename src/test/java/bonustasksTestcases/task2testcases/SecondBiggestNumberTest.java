@@ -1,9 +1,9 @@
-package bonustasksTestcases;
+package bonustasksTestcases.task2testcases;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import bonnus_tasks.SecondBiggestNumber;
+import bonnus_tasks.task2.SecondBiggestNumber;
 
 
 
