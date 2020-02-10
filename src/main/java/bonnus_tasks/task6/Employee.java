@@ -1,7 +1,7 @@
 package bonnus_tasks.task6;
 
-public class Employee implements Comparable<Employee> {
-	String empName;
+ public class Employee implements Comparable<Employee> {
+	private String empName;
 
 	public String getEmpName() {
 		return empName;
@@ -19,7 +19,7 @@ public class Employee implements Comparable<Employee> {
 		this.empNumber = empNumber;
 	}
 
-	int empNumber;
+	private int empNumber;
 
 	public Employee(String empName, int empNumber) {
 		this.empName = empName;
