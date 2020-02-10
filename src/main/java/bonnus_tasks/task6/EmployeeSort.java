@@ -26,7 +26,6 @@ public class EmployeeSort {
 		logger.info("Employee after sorting with custom comparator\n"
 				+ new EmployeeSortByNameWithLambda().sortEmployeeUsingComparator(employeesList));
 
-
 		Collections.sort(employeesList);
 		logger.info("Employee  sorting with defaultSorting\n" + employeesList);
 

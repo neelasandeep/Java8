@@ -41,7 +41,6 @@ package bonnus_tasks.task6;
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((empName == null) ? 0 : empName.hashCode());
 		result = prime * result + empNumber;
 		return result;
 	}
@@ -55,16 +54,11 @@ package bonnus_tasks.task6;
 		if (getClass() != obj.getClass())
 			return false;
 		Employee other = (Employee) obj;
-		if (empName == null) {
-			if (other.empName != null)
-				return false;
-		} else if (!empName.equals(other.empName)) {
+		if (empNumber != other.empNumber)
 			return false;
-		}
-		else if(empNumber != other.empNumber) {
-			return false;
-		}
 		return true;
 	}
+
+
 
 }
