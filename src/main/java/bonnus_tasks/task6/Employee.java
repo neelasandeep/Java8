@@ -56,9 +56,9 @@ package bonnus_tasks.task6;
 		Employee other = (Employee) obj;
 		if (empNumber != other.empNumber)
 			return false;
+		
 		return true;
 	}
 
-
-
+	
 }
