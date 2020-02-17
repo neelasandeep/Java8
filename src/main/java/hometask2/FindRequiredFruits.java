@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class FindRequiredFruits {
-	public Predicate<Fruits> isNameStartWithA=p-> {
+	 Predicate<Fruits> isNameStartWithA=p-> {
 		return p.name.startsWith("B");
 	};
 
-	public Predicate<Fruits> priceGreaterThan30 =p-> {
+	 Predicate<Fruits> priceGreaterThan30 =p-> {
 		return p.price > 30;
 	};
 	  public List<Fruits> findRequiredList(List<Fruits> fruitsList){
